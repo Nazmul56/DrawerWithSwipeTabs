@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Property Tailor</string>
+    <string name="app">Nazmul</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sales1">Sales1</string>
+    <string name="title_activity_rent1">Rent1</string>
+    <string name="title_activity_rent2">Rent2</string>
+    <string name="title_activity_message_submit">MessageSubmit</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="web_link">http://christine07.businesscatalyst.com/index.html</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

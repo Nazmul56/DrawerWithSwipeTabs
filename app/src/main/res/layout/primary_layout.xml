@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:src="@drawable/pro"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.08" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Christine Ong"
+                android:id="@+id/textView20"
+                android:layout_gravity="center"
+                android:textColor="#A82828"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Christine Ong is in the real estate business for more than 20 years. Christine first joined Jones Lang Wootton (Currently known as Jones Lang Lasalle) in 1991. Throughout her 8 years with them, she held various positions in the property management department as well as the corporate real estate services."
+                android:id="@+id/textView2"
+                android:layout_below="@+id/imageView"
+                android:lineSpacingExtra="2dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:layout_alignLeft="@+id/textView20"
+                android:layout_alignStart="@+id/textView20"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="She went to DTZ in 1999 and was awarded a million dollars club member in sales for several years."
+                android:id="@+id/textView3"
+                android:layout_below="@+id/textView2"
+                android:lineSpacingExtra="2dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In 2007, she obtained the real estate agent license and set up her own entity. Currently, Christine hold a position as a Key Executive officer overseeing the entire real estate portfolio."
+                android:id="@+id/textView4"
+                android:lineSpacingExtra="2dp"
+                android:layout_below="@+id/textView3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Education : "
+
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textSize="20dp"
+                android:id="@+id/textView5"
+                android:layout_below="@+id/textView4"
+                android:lineSpacingExtra="2dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1983-1985 : Singapore Polytechnics (Diploma in Building construction Technology)"
+                android:id="@+id/textView6"
+                android:layout_below="@+id/textView5"
+                android:paddingLeft="30dp"
+                android:lineSpacingExtra="2dp"
+                android:paddingRight="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1993-1996: Singapore Institute of Management (Degree in management science)"
+                android:id="@+id/textView7"
+                android:layout_below="@+id/textView6"
+                android:lineSpacingExtra="2dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="50dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

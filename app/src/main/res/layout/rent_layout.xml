@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageButton1"
+        android:src="@drawable/rent1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:onClick="rent1"/>
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/rent2"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/imageButton1"
+        android:layout_alignLeft="@+id/imageButton1"
+        android:layout_alignStart="@+id/imageButton1"
+        android:onClick="rent2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15dp"
+        android:text="   Azalea Park"
+        android:id="@+id/textView17"
+        android:textStyle="bold"
+        android:textColor="#2e2e2e"
+        android:layout_alignTop="@+id/imageButton1"
+        android:layout_alignLeft="@+id/textView19"
+        android:layout_alignStart="@+id/textView19" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="   $3,600"
+        android:id="@+id/textView18"
+        android:textSize="15dp"
+        android:textColor="#2e2e2e"
+        android:layout_below="@+id/textView17"
+        android:layout_alignLeft="@+id/textView17"
+        android:layout_alignStart="@+id/textView17" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="   4 Flora Road"
+        android:textStyle="italic"
+        android:id="@+id/textView19"
+        android:textSize="12dp"
+        android:layout_below="@+id/textView18"
+        android:layout_toRightOf="@+id/imageButton1"
+        android:layout_toEndOf="@+id/imageButton1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15dp"
+        android:text="   Oleanas Residence"
+        android:id="@+id/textView20"
+        android:textStyle="bold"
+        android:textColor="#2e2e2e"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_alignLeft="@+id/textView19"
+        android:layout_alignStart="@+id/textView19" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="   $4,200"
+        android:id="@+id/textView21"
+        android:textSize="15dp"
+        android:textColor="#2e2e2e"
+        android:layout_below="@+id/textView20"
+        android:layout_alignLeft="@+id/textView20"
+        android:layout_alignStart="@+id/textView20" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="   42 Kim Yam Road"
+        android:textStyle="italic"
+        android:id="@+id/textView22"
+        android:textSize="12dp"
+        android:layout_below="@+id/textView21"
+        android:layout_alignLeft="@+id/textView21"
+        android:layout_alignStart="@+id/textView21" />
+</RelativeLayout>
